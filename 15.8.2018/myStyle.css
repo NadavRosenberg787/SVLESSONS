@@ -1,0 +1,63 @@
+.tableClass{
+    margin-bottom: 25%;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 50%;
+    border-width: 5px;
+    border-color: rgb(75, 255, 50);
+    border-style: double;
+}
+
+#TopLeft{
+
+vertical-align: top;
+text-align: left;
+}
+
+#Top{
+vertical-align: top;
+text-align: center;
+}
+
+#TopRight{
+vertical-align: top;
+text-align: right;
+
+}
+
+#Left{
+
+    vertical-align: middle;
+    text-align: left;
+
+}
+
+#Center{
+    vertical-align: middle;
+    text-align: center;
+}
+
+#Right{
+    vertical-align: middle;
+    text-align: right;
+}
+
+#BottomLeft{
+    vertical-align: bottom;
+    text-align: left;
+}
+
+#Bottom{
+    vertical-align: bottom;
+    text-align: center;
+
+}
+
+#BottomRight{
+vertical-align: bottom;
+    text-align: right;
+
+
+}

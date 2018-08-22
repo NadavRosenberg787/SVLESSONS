@@ -1,0 +1,92 @@
+
+#listHeader{
+    background-color: red;
+    color: aqua;
+}
+#ulstyle{
+    background-color: green;
+    list-style-type: square;
+}
+
+#olRoman{
+    list-style-type: upper-roman;
+}
+#specialColor{
+    background-color: blue;
+    color: white;
+}
+
+#smallImage{
+    border-style: groove;
+    width: 250px;
+    height: 250px;
+    filter: invert(100%);
+}
+
+#first{
+    color: green;
+}
+#second{
+    color: blue;
+}
+#third{
+    color: red;
+}
+#fourth{
+    color: teal;
+}
+
+#headerDiv{
+    height: 20%;
+    background-color: rgb(255, 71, 71);
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+    border-bottom-color: brown
+
+}
+
+#headerText{
+    position: relative;
+ 
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#lowerDiv{
+    background-color: purple;
+}
+
+#ref:link{
+    font-size: 20px;
+}
+
+#ref:hover{
+    font-size: 50px;
+    
+}
+
+#ref:visited{
+    font-size: 30px;
+}
+
+#ref:active{
+    font-size: 100px;
+}
+
+#bodyId{
+    background-image: url("https://www.pokewiki.de/images/thumb/2/26/Anime-Artwork_039.png/120px-Anime-Artwork_039.png");
+    background-repeat: repeat;
+    background-position: center left;
+}
+
+#positionId{
+    position: relative;
+    margin: 15%;
+}
+
+#positionDiv{
+    height: 25%;
+    width: 25%;
+    background-color: greenyellow;
+}
