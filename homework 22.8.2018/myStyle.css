@@ -1,0 +1,142 @@
+#smallCube{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    animation: changeColor 5000ms infinite;
+    position: relative;
+
+}
+
+#smallCubeDimond{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    animation: anim2 1250ms infinite;
+    position: relative;
+}
+
+@keyframes changeColor{
+    0% {background-color: green;left: 0px; top: 0px;}
+    25% {background-color: yellow;left: 200px; top:200px;}
+    50% {background-color: red;left: 200px;top:0px;}
+    75% {background-color: purple;left:0px; top: 200px;}
+    100% {background-color: blue;left:0px; top:0px;}
+}
+
+@keyframes anim2{
+    0% {background-color: green;left: 100px; top: 0px;}
+    25% {background-color: yellow;left: 200px; top:100px;}
+    50% {background-color: red;left: 100px;top:200px;}
+    75% {background-color: purple;left:0px; top: 100px;}
+    100% {background-color: blue;left:100px; top:0px;}
+}
+
+#smallCubeResizing{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+#smallCubeResizing:hover{
+    
+    animation: animHover 350ms;
+}
+
+@keyframes animHover{
+    from{width: 50px; height: 50px;}
+    to{width: 100%; height: 100%;}
+
+}
+
+#backgroundJig{
+    background-image: url("https://zippy.gfycat.com/CleanOpenKilldeer.gif");
+    background-repeat: repeat;
+
+}
+
+#myBox787{
+    width: 25%;
+    height: 25%;
+    background-color: blueviolet;
+    text-align: center;
+    opacity: 0.787;
+    color: white;
+}
+
+#coloring787{
+    background-color: red;
+    border-color: black;
+    border-width: 2px;
+    border-style: double;
+  
+
+}
+
+#coloring788{
+    background-color: rgb(209, 116, 116);
+    border-color: black;
+    border-width: 2px;
+    border-style: double;
+
+}
+
+#pokemon1{
+    color: white;
+}
+
+#tableWhite787{
+    background-color: wheat;
+}
+
+#flareon787{
+    width: 300px;
+    position: relative;
+    animation: animFlareon787 3500ms infinite;
+
+}
+
+#unknownPok787{
+    width: 300px;
+    position: relative;
+    animation: animunknownPok787 3500ms infinite;
+    
+}
+
+#pokeBall787{
+    width: 1100px;
+    position: fixed;
+    top: 100px;
+    left: -75px;
+    opacity: 0.0; 
+    
+    
+}
+
+#pokeBall787:hover{
+    animation :animPokeBallSizing787 2000ms 1;
+}
+
+
+@keyframes animPokeBallSizing787{
+    0%{transform: scale(0); opacity: 0.0;}
+    50%{transform: scale(1.75);opacity: 1.0;}
+    0%{transform: scale(0);opacity: 0.0;}
+}
+@keyframes animFlareon787{
+    0% {left: 700px; top: 0px;}
+    25% {left: 0px; top:0px;}
+    50% {left: 0px;top:700px;}
+    75% {left:700px; top: 700px;}
+    100% {left:700px; top:0px;}
+}
+
+@keyframes animunknownPok787{
+    0% {left: -100px; top: 200px;}
+    25% {left: 200px; top:200px;}
+    50% {left: 200px;top:500px;}
+    75% {left:-100px; top: 500px;}
+    100% {left:-100px; top:200px;}
+}
+
+
+
