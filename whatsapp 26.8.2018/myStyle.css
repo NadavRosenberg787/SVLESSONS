@@ -1,0 +1,326 @@
+
+/* divs */
+
+#navbar{
+background-color: #1ebea5;
+color: white;
+position: sticky;
+overflow: hidden;
+z-index: 1000;
+
+}
+
+
+
+#main787{
+    margin-top: 100px;
+}
+
+#bottomDiv787{
+    background-color:#273443;
+    padding-bottom:30px;
+}
+
+#privacyAndTermsDiv787{
+    padding-top: 50px;
+    background-color: #232f3c;
+
+
+}
+
+#mainTitles787{
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+#androidLinkDiv787{
+
+}
+
+#iPhoneLinkDiv787{
+    margin-top: 1px;
+    margin-left: -1px;
+
+}
+
+#macWindowsLinkDiv787{
+    margin-top: 10px;
+
+}
+
+#windowsPhoneLinkDiv787{
+    margin-top: 13px;
+
+}
+#mainSecondSection787{
+    margin-top: 65px;
+}
+#whatsappBizAppDiv787{
+    background-color: #d0e9ea;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;    
+}
+
+#whatsappSecurityDiv787{
+    background-color: #edf8f5;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;    
+
+}
+
+#exploreFeaturesDiv787{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#mainDivTop787{
+    margin-bottom: 50px;
+}
+
+
+
+
+/* images */
+
+
+
+#topLogoImg787{
+    height: 55px;
+    filter: brightness(115%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+
+}
+
+#topLangIco787{
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#mainWhatsappDemoPhoto787{
+    
+    margin-left: 20%;
+}
+
+#smallMainIconsAndroid787{
+    width: 50px;
+    margin-left: -12px;
+}
+
+#smallMainIconsApple787{
+    width: 30px;
+}
+
+#smallMainIconsPc787{
+    width: 25px;
+    height: 25px;
+}
+
+#smallMainIconsWindowsPhone787{
+    width: 25px;
+    padding-bottom: 2px;
+}
+
+#whatsAppBizImg787{
+    margin-top: 25px;
+    position: relative;
+
+    left: 25%;
+}
+
+#whatsappCircleImg787{
+    margin-top: 25px;
+    position: relative;
+
+    left: 25%;
+}
+
+/* labels and top links*/
+
+#topLogoText787{
+    font-weight: bolder;
+    margin-left: -75px;
+    color: white;
+}
+
+#topLogoText787:hover{
+    color: white;
+    text-decoration-line: none;
+}
+
+.topLabels787{
+    color: white;
+    margin-left: 75px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.topLabels787:hover{
+    color: white;
+    text-decoration-line: none;
+}
+
+#topLangText787{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+#topLangText787:hover{
+    color: white;
+    text-decoration-line: none;
+}
+
+#exploreFeaturesLink787{
+    padding: 15px;
+    color: #1ebea5;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1ebea5;
+    border-radius: 40px;
+    vertical-align: middle;
+    display:  inline-block;
+
+}
+
+#exploreFeaturesLink787:hover{
+    text-decoration-line: none;
+}
+
+.bottomLabels787{
+    margin-top: 50px;
+    color: rgba(255, 255, 255, .6);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.bottomLinks787{
+    margin-top: 15px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.bottomLinks787:hover{
+    color: white;
+    text-decoration-line: none;
+}
+
+#bottomLinkPrivacyAndTerms787{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+#bottomLinkPrivacyAndTerms787:hover{
+    color: white;
+    text-decoration-line: none;
+
+}
+
+#bottomLableWhatsappInc787{
+    color: rgba(255, 255, 255, .6);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+/* download links */
+
+.donwloadLinks787{
+color: #1cb39b;
+}
+
+.donwloadLinks787:hover{
+    color: #119432;
+    text-decoration-line: none;
+}
+#androidLink787{
+    margin-left: -1px;
+}
+
+#iPhoneLink787{
+    margin-left: 8px;
+}
+
+#macWindowsLink787{
+    margin-left: 12px;
+}
+
+#windowsPhoneLink787{
+    margin-left: 12px;
+}
+
+/* headers */
+
+#simpleSecureEtcTitle787{
+    font-weight: 350;
+    color: rgba(92, 92, 92, 0.904);
+}
+
+#withWhatsappYoullEtc787{
+    margin-top: 25px;
+    font-weight: 300;
+    color: rgba(128, 128, 128, 0.904);
+}
+
+#whatsappBizAppTitle787{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#securityByDefaultTitle787{
+    text-align: center;
+    font-weight: 300;
+}
+
+/* paragraphes */
+#DatachargesMayApplyEtc787{
+    color: #282828;
+    opacity: 0.50;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+#endToEndText787{
+    margin-top: 10px;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#securityInfoText787{
+    text-align: center;
+    font-size: 12px;
+
+}
+
+
+/* nav bar sticky taken from w3schools */
+/* Page content */
+.content {
+    padding: 16px;
+  }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }

@@ -1,0 +1,90 @@
+
+#g{
+    animation: anim_g 1.5s infinite;
+    position: relative;
+}
+
+@keyframes anim_g{
+    0%{color: red; font-size:10px;text-decoration-style: solid;text-decoration-color: black;}
+    25%{color:green;font-size:30px;}
+    50%{color: blue;font-size:50px;}
+    75%{color: yellow;font-size:30px;}
+    100%{color:purple;font-size:10px;}
+}
+
+
+#o{
+    animation: anim_o 1500ms infinite;
+    position: relative;
+}
+
+@keyframes anim_o{
+    0%{color: red;left: 0px;}
+    25%{color:green;left: -1px;}
+    50%{color: purple;left: 10px;}
+    75%{color: blue;left:20px;}
+    100%{color:purple;left:0px;}
+}
+
+
+#g1{
+    animation: anim_g1 1500ms infinite;
+    position: relative;
+}
+
+@keyframes anim_g1{
+    0%{color: red;left: 0px;}
+    25%{color:green;left: -1px;}
+    50%{color: purple;left: 10px;}
+    75%{color: blue;left:60px;}
+    100%{color:purple;left:0px;}
+}
+
+
+#o1{
+    animation: anim_o1 1500ms infinite;
+    position: relative;
+}
+
+@keyframes anim_o1{
+    0%{color: red;left: 0px;}
+    25%{color:green;left: -1px;}
+    50%{color: purple;left: 10px;}
+    75%{color: blue;left:40px;}
+    100%{color:purple;left:0px;}
+}
+
+
+#l{
+    animation: anim_l 1500ms infinite;
+    position: relative;
+}
+
+@keyframes anim_l{
+    0%{color: red;left: 0px;}
+    25%{color:green;left: -1px;}
+    50%{color: purple;left: 10px;}
+    75%{color: blue;left:80px;}
+    100%{color:purple;left:0px;}
+}
+
+
+#e{
+    animation: anim_e 1500ms infinite;
+    position: relative;
+}
+
+@keyframes anim_e{
+    0%{color: red;left: 0px;}
+    25%{color:green;left: -1px;}
+    50%{color: purple;left: 10px;}
+    75%{color: blue;left:100px;}
+    100%{color:purple;left:0px;}
+}
+
+#navSticky{
+    position: sticky;
+}
+
+
+
