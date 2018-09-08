@@ -1,0 +1,128 @@
+#mainDiv787{
+    background-image: linear-gradient(rgb(65, 12, 12), rgb(92, 29, 4));
+    padding: 78px;
+
+    color: white;
+    box-shadow: 0px 0px 52px rgb(0, 0, 0);
+
+
+}
+
+.tooltip .tooltip-inner{
+ 
+    max-width:310px;
+     
+    padding:3px 8px;
+     
+    color:#fff;
+     
+    text-align:center;
+     
+    background-color:#245973;
+     
+    border-radius:5px
+     
+    }
+
+.enterANumberHeader787{
+    margin-top: 130px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.input787{
+    margin-top: 40px;
+    margin-left: 75%;
+}
+
+.inputCentered787{
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button787{
+position: relative;
+margin-top: 25px;
+margin-left: 75%;
+margin-bottom: 125px;
+}
+
+.centeredGifs787{
+    display: block;
+    margin: auto;
+    opacity: 1;
+    width: 100%;
+    height: 400px;
+
+    
+}
+
+#smallGif787{
+    height: 100%;
+}
+
+#capitalGif787{
+    height: 100%;
+}
+
+.answer787{
+    margin-top: 55px;
+    text-align: center;
+   
+}
+
+#navBar787{
+ 
+    background-color: black;
+    width: 80%;
+    padding: 20px;
+    position: sticky;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+/* nav bar sticky taken from w3schools */
+/* Page content */
+.content {
+    padding: 16px;
+  }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top:200px;
+  }
+
+#navBar787 a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 55px;
+    position: relative;
+}
+
+#navBar787 a:hover{
+    animation: anim2 372ms 1;
+    animation-fill-mode: forwards;
+    text-decoration-line: none;
+}
+
+
+@keyframes anim2{
+    0% {font-size: 35px; top: 0px;}
+  
+    100%{font-size:42px; top:20px;}
+}
+
+#overRideTop787{
+    margin-top: -10%;
+}
