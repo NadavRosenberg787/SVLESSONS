@@ -1,0 +1,513 @@
+
+@media screen and (max-width: 2000px) {
+    #navBar787 label{
+        font-size: 18px;
+    }
+
+    #topBarGameName{
+        font-size: 20px;
+    }
+    #scoreText787{
+        font-size: 150px;
+    }
+
+    #scoreButton787{
+        margin: 25px;
+    
+        width: 350px;
+        height: 350px;
+      }
+
+    #mainNumberHeaderText787{
+
+        font-size: 500px;
+  
+    }
+
+    #gameOverTryAgain787{margin-top: 250px;font-size: 50px;}
+
+    .resizeMainNumberHeader787{
+        font-size: 150px;
+    }
+
+    #container{
+        height: 950px;
+    }
+
+    #tipTextDiv787{
+        margin-top: -100px;
+      }
+      #info2{
+        top: 73.5%;
+        left: 88%;
+        width: 150px;
+        height: 100px;
+      }
+      #infoi {
+        width: 350px;
+        height: 350px;
+      }
+
+    #playPauseImg787{
+        width: 200%;
+        height: 200%;
+    }
+
+    #musicImg787{
+        width: 200%;
+        height: 200%;
+        margin-top: -150px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    #navBar787 label{
+        font-size: 18px;
+    }
+
+    
+    #topBarGameName{
+        font-size:18px;
+    }
+    #scoreText787{
+        font-size: 100px;
+    }
+
+    #scoreButton787{
+        margin: 25px;
+    
+        width: 300px;
+        height: 300px;
+      }
+      #mainNumberHeaderText787{
+
+        font-size: 350px;
+  
+    }
+    #gameOverTryAgain787{margin-top: 150px;font-size: 50px;}
+    
+    .resizeMainNumberHeader787{
+        font-size: 100px;
+    }
+    
+    #container{
+        height: 650px;
+    }
+
+    #tipTextDiv787{
+        margin-top: 0px;
+      }
+
+      #info2{
+        top: 69%;
+        left: 85%;
+        width: 100px;
+        height: 100px;
+      }
+
+      #infoi {
+        width: 300px;
+        height: 300px;
+      }
+      #playPauseImg787{
+        width: 200%;
+        height: 200%;
+    }
+    #musicImg787{
+        width: 200%;
+        height: 200%;
+        margin-top: -150px;
+    }
+}
+    
+    @media screen and (max-width: 950px) {
+        #navBar787 label{
+            font-size: 16px;
+    }
+    
+    #topBarGameName{
+        font-size:18px;
+
+    }
+    #scoreText787{
+        font-size: 75px;
+    }
+    #scoreButton787{
+        margin: 20px;
+
+        width: 200px;
+        height: 200px;
+      }
+      #mainNumberHeaderText787{
+
+        font-size: 200px;
+  
+    }
+    #gameOverTryAgain787{margin-top: 75px;font-size: 50px;}
+    
+    .resizeMainNumberHeader787{
+        font-size: 50px;
+    }
+    #container{
+        height: 450px;
+    }
+
+    #tipTextDiv787{
+        margin-top: 0px;
+      }
+
+      #info2{
+        top: 66.5%;
+        left: 84.5%;
+
+        width: 75px;
+        height: 75px;      }
+
+      #infoi {
+        width: 200px;
+        height: 200px;
+      }
+      #playPauseImg787{
+        width: 150%;
+        height: 150%;
+      }
+      #musicImg787{
+        width: 150%;
+        height: 150%;
+        margin-top: -115px;
+    }
+
+}
+
+
+    
+    @media screen and (max-width: 650px) {
+    
+        #navBar787 label{
+            font-size: 14px;
+    
+    }
+    
+    #topBarGameName{
+        font-size:18px;
+
+    }
+    #scoreText787{
+        font-size: 40px;
+    }
+    
+    #scoreButton787{
+        margin: 17px;
+    
+        width: 150px;
+        height: 150px;
+    }
+    #mainNumberHeaderText787{
+
+        font-size: 150px;
+  
+    }
+
+    #gameOverTryAgain787{margin-top: 35px;font-size: 50px;}
+    
+    .resizeMainNumberHeader787{
+        font-size: 35px;
+    }
+    #container{
+        height: 325px;
+    }
+
+    #tipTextDiv787{
+        margin-top: 0px;
+      }
+      #infoi {
+        width: 150px;
+        height: 150px;
+      }
+      #playPauseImg787{
+        width: 100%;
+        height: 100%;
+      }
+      #info2{
+        top: 67%;
+        left: 84%;
+
+        width: 75px;
+        height: 75px;      }
+        #playPauseImg787{
+            width: 100%;
+            height: 100%;
+        }
+        #musicImg787{
+            width: 100%;
+            height: 100%;
+            margin-top: -85px;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        #navBar787 label{
+            font-size: 10px;
+    
+    }
+    
+    #topBarGameName{
+        font-size: 18px;
+    }
+    
+    #scoreButton787{
+        margin: 10px;
+
+        width: 100px;
+        height: 100px;
+
+    }
+    #mainNumberHeaderText787{
+
+        font-size: 100px;
+  
+    }
+
+    #gameOverTryAgain787{margin-top: 35px;
+    font-size: 25px;}
+    
+    .resizeMainNumberHeader787{
+        font-size: 35px;
+    }
+    #container{
+        height: 225px;
+    }
+    #tipTextDiv787{
+        margin-top: 0px;
+       
+      }
+      #infoi {
+        width: 100px;
+        height: 100px;
+      }
+      #info2{
+        top: 65.5%;
+        left: 85%;
+        width: 75px;
+        height: 75px;      }
+        #playPauseImg787{
+            width: 75%;
+            height: 75%;
+        }
+        #musicImg787{
+            width: 75%;
+            height: 75%;
+            margin-top: -75px;
+        }
+}
+
+a:hover{
+    text-decoration-line: none;
+    color: rgb(197, 136, 56);
+}
+
+#navBar787{
+    background: url('images/topbarcoloring.png') repeat;
+    height:30px;
+    width: 100%;
+    padding: 5px;
+}
+
+#navBar787 label{
+    color: white;
+
+}
+
+#topBarLogo20{
+    color:rgb(255, 96, 117);
+    font-weight: 700;
+}
+#topBarLogob{
+    color:rgb(255, 208, 53);
+    font-weight: 800;
+}
+
+#topBarGameName{
+   
+    display: table;
+  margin-left: auto;margin-right: auto;
+  
+}
+
+#topBarByCreator{
+}
+
+
+/* fetched from stack over flow */
+
+body{
+    background-color: #dbeaff;
+}
+
+#mainDiv787{
+   width: 100%;
+}
+
+#container {
+    width: 100%;
+    position: relative;
+  }
+  #navi{
+      
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  
+  }
+  #infoi {
+    position: absolute;
+    z-index: 122;
+
+   
+  }
+
+  #info2 {
+    position: absolute;
+   
+  }
+
+  #info2 img:hover{
+    animation: animBtnHover 350ms infinite;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes animBtnHover{
+      0%{transform: scale(1.0);}
+      75%{transform: scale(1.05);}
+      0%{transform: scale(1.0);}
+  }
+  
+
+  #scoreButton787{
+    background: url("images/bluebutton.png") center;
+    background-size: cover;
+   
+
+  }
+
+  #scoreText787{
+    position: relative;
+    top: 50%;
+    left: 50%;
+  
+      color: white;
+      font-weight: 600;
+      text-align: center;
+   
+      vertical-align: middle;
+
+      transform: translateX(-50%) translateY(-50%);
+    
+  }
+
+
+
+  #mainNumber787{
+      z-index: 121;
+      width: 65%;
+      height: 70%;
+      top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+      border-radius: 25px;
+      
+      border-style: solid;
+      border-width: 15px;
+
+      border-color: #cedaea;
+      background-color: #dbe4ef;
+      position: relative;
+      
+  }
+
+  #mainNumberHeaderText787{
+   
+    z-index: 116;
+      color: white;
+      font-weight: 600;
+      text-align: center;
+      vertical-align: middle;
+      width: 100%;
+      height: 100%;
+  
+
+      
+  }
+  
+  #gameOverTryAgain787{
+      position: relative;
+    
+    font-weight: 600;
+    color: rgb(236, 154, 154);
+    width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      
+      margin-bottom: 0;
+}
+  
+  #playPauseBtn787{
+    position: absolute;
+    z-index: 150;
+  }
+
+  #playPauseImg787{
+     
+  }
+
+  #musicBtn787{
+    position: absolute;
+    z-index: 149;
+  }
+
+  #musicImg787{
+     
+  }
+
+  #tipTextDiv787{
+
+      display: block;
+    margin-left: auto; margin-right: auto;
+      width: 50%;
+      height: 25%;
+      padding: 5px;
+      z-index: 177;
+
+    background-color: #ebfff1;
+    border-color: #cbffda;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+  }
+
+  #tipTextP787{
+      z-index: 200;
+    display: block;
+    margin: auto;
+      color: #784a7b;
+      text-align: center;
+      
+  }
+
+  .animateScalePop{
+      animation: animScaleDown 200ms 1;
+      
+  }
+
+
+
+  @keyframes animScaleDown{
+    0%{transform: scale(1.0);}
+    15%{transform: scale(0.787);}
+    50%{transform: scale(1.2787);}
+    100%{transform: scale(1.0);}
+  }
+

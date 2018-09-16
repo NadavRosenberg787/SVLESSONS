@@ -1,5 +1,6 @@
 
 {
+    //alert("This somehow website only works in full screen resolution of 1920x1080")
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
       })
