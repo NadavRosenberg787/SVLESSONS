@@ -1,0 +1,23 @@
+
+
+.imgs{
+    width: 100px;
+    height: 100px;
+}
+
+.startingDivs{
+    width: 0%;
+    height: 10%;
+}
+
+#redDiv{
+    background-color: red;
+}
+
+#yellowDiv{
+    background-color: yellow;
+}
+
+#blueDiv{
+    background-color: blue;
+}

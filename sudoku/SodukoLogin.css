@@ -1,0 +1,141 @@
+#topBar{
+  padding: 25px;
+  background-color: #8030cf;
+  color: white;
+  text-align: center;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  
+}
+
+#topBar h5{
+  font-size: 37px;
+}
+
+#mainBody{
+width: 100%;
+}
+
+#welcomeText{
+  width: 25vw;
+  display: inline-block;
+  position: relative;
+  animation: animationWelcomeGoIn 500ms 1;
+  animation-fill-mode: forwards;
+  font-size: 50px;
+  text-align: center;
+}
+
+.mainScreenLoginClass{
+  text-align: center;
+  width: 25vw;
+  padding: 25px;
+  font-size: 25px;
+  color: white;
+  background-color: #8030cf;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+
+
+}
+
+.mainScreenLoginClass:hover{
+  background-color: #cf4330;
+
+}
+
+.diffSelect{
+  margin: 25px;
+  padding: 33px;
+  background-color: #8030cf;
+  color: white;
+  width: 25vw;
+
+}
+
+#selectDiffDiv{
+  display: none;
+  font-size: 30px;
+  width: 50vw;
+  text-align: center;
+  margin: auto auto;
+}
+
+.selectDiffDiv:hover{
+  text-decoration-line: none;
+}
+
+
+#loginDiv{
+  display: none;
+  font-size: 30px;
+  width: 25vw;
+  text-align: center;
+  margin: auto auto;
+
+}
+
+#createNewUserDiv{
+  display: none;
+  font-size: 30px;
+  width: 25vw;
+  text-align: center;
+  margin: auto auto;
+}
+
+#createNewUserDiv h6{
+  font-size: 35px;
+}
+
+#cnuSubmit{
+  margin-top:15px;
+  width: 25vw;
+  background-color: #8030cf;
+  color:white;
+}
+
+
+#btnLoginKnownUser{
+  width: 25vw;
+  margin-top: 15px;
+  background-color: #8030cf;
+  color: white;
+}
+
+#loginDiv h6{
+  font-size: 35px;
+}
+
+.animationGoIn1500{
+  animation: animationWelcomeGoIn 1500ms 1;
+  animation-fill-mode: forwards;
+}
+
+.animationGoIn2000{
+  animation: animationWelcomeGoIn 2000ms 1;
+  animation-fill-mode: forwards;
+}
+
+.animationGoIn2500{
+  animation: animationWelcomeGoIn 2500ms 1;
+  animation-fill-mode: forwards;
+}
+
+.animationGoOut{
+  animation: animationWelcomeGoIn 300ms reverse;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animationWelcomeGoIn{
+  0%{transform: translateX(-1000vw)}
+  100%{transform: translateX(37.5vw)}
+}
+
+
+
+#newUserHeader{
+  font-size: 20px;
+  margin-bottom: 10px;
+}

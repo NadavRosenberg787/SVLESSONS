@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+        <meta charset="utf-8">
+        <link id="styleFile" rel="stylesheet" href="SodukoLogin.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+
+    </head>
+
+    <body>
+
+        <div id="topBar">
+            <h5>SuDoKu Homework 2.0b</h5>
+        </div>
+
+        <div id="mainBody">
+            <h6 id="welcomeText">Welcome</h6>
+            <Br>
+            <label class="mainScreenLoginClass" id="loginLabel" onclick="login()">Login</label>
+            <br>
+            <label class="mainScreenLoginClass" id="loginCreateNewUserLabel" onclick="createNewUser()">Create New User</label>
+            <br>
+            <a href="Soduko.html#0"><label class="mainScreenLoginClass" id="guestLabel" onclick="playAsGuest()">Play as Guest</label></a>
+            <br>
+
+            <div id="loginDiv">
+                <h6>Username : </h6>
+                <input type="text" id="inputLoginUserName">
+                <br>
+                <h6>Password : </h6>
+                <input type="text" id="inputLoginPassword">
+                <br>
+                <button id="btnLoginKnownUser" onclick="loginKnownUser()">Login</button>
+                <p id="loginKnownWelcome"></p>
+            </div>
+
+            <div id="createNewUserDiv">
+                <h6 id="newUserHeader">Hello new player, please enter your details and lets start playing!</h6>
+                <h6>Enter First and Last name</h6>
+                <input type="text" id="cnuFullName">
+                <br>
+                <h6>Enter a New User Name</h6>
+                <input type="text" id="cnuUserName">
+                <br>
+                <h6>Enter a New Password</h6>
+                <input type="text" id="cnuPassword">
+                <br>
+                <h6>Repeast the New Password</h6>
+                <input type="text" id="cnuPassword2">
+                <br>
+                <button id="cnuSubmit" onclick="submitNewPlayer()">Submit and Play!!!</button>
+                <p id="cnuResult"></p>
+            </div>
+
+            <div id="selectDiffDiv">
+                <a href="soduko.html#0" ><button class="diffSelect">Easy</button></a>
+                <br>
+                <br>
+                <a href="soduko.html#1" ><button class="diffSelect">Medium</button></a>
+                <br>
+                <br>
+                <a href="soduko.html#2" ><button class="diffSelect">Hard</button></a>
+                <br>
+            </div>
+        </div>
+
+
+
+        <script type="text/javascript" src="SodukoLogin.js" ></script>
+    </body>
+
+</html>
